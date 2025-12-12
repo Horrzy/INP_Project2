@@ -34,7 +34,7 @@ loop:
                 lb      r12, 0(r10)         ; Nacteni znaku
                 beq     r12, r0, end_loop   ; Konec řetězce
 
-                ; Detekce samohlasek (a, e, i, o, u, y)
+                ; Detekce samohlásek (a, e, i, o, u, y)
                 daddi   r5, r0, 97          ; 'a'
                 beq     r12, r5, vowel_shift
                 daddi   r5, r0, 101         ; 'e'
