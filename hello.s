@@ -1,4 +1,4 @@
-; Autor reseni: Jan Raska xraskaj00
+; Autor reseni: Jan Raška xraskaj00
 
 ; Projekt 2 - INP 2025
 ; Souhlaskove modulovana samohlaskova sifra na architekture MIPS64
